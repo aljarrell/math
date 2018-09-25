@@ -1,8 +1,7 @@
 require "minitest/autorun"
+require_relative "addition.rb"
 class My_test < Minitest::Test
-  def add(numone, numtwo)
-      numone + numtwo
-  end
+
   def test_setup_test
       assert_equal(1,1)
   end
